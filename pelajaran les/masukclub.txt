@@ -1,0 +1,47 @@
+// var nama = 'fefe'
+// var umur = 16
+// var uang = 5000000
+
+// if (nama){
+//   if (umur >15){
+//     console.log ("boleh masuk bar");
+//     if (umur >17){
+//       if (uang >300000){
+//       console.log ("boleh beli bir")
+//        uang = uang - 300000
+//         console.log ('sisa uang ' + nama + ' ' + uang)
+//       }
+
+//       else {
+//         console.log ("uang tidak cukup, pulang")
+//       }
+//     }
+//     if (umur <17){
+	console.log ("boleh beli bir")
+//        uang = uang - 300000
+//         console.log ('sisa uang ' + nama + ' ' + uang)
+//       }
+
+//       else {
+//         console.log ("uang tidak cukup, pulang")
+//       }
+//     }
+//     if (umur <17){
+//     console.log ("boleh pesan jus jeruk")
+//     if (uang >50000){
+//       console.log ("boleh beli jus jeruk")
+//       uang = uang - 50000
+//       console.log ('sisa uang ' + nama + ' ' + uang)
+//     }
+//     else {
+//       console.log ("uang tidak cukup, pulang")
+//     }
+
+//     }
+  }
+
+// }
+// else {
+//   console.log ("anda tidak boleh masuk")
+// }
+

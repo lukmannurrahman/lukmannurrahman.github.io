@@ -1,0 +1,20 @@
+function reverseWord(kata){
+var hasil = ''
+
+for (var i =  kata.length - 1; i >= 0;
+i--){
+  hasil = hasil + kata[i]
+}
+return hasil
+}
+
+console.log(reverseWord('motherFuckers'))
+
+
+
+
+PENJELASAN
+1. kita loopIng string 'word' sesusi maksimal wordnya tergantung maximal 'word' nya
+2. kita looping dari belakang.
+3, kita akses masing" karakter di variabel "hasil" jika string menggunakan operator function "push"
+	dan jika array menggunakan function "push"

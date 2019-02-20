@@ -1,0 +1,18 @@
+function perkalianUnik(arr){
+  hasil = []
+  for(var i = 0; i < arr.length; i++){
+
+    var tampung2 = 1
+
+    for(var j = 0; j < arr.length; j++){
+      if(i != j){
+        tampung2 = tampung2 * arr[j]
+      }
+    }
+    hasil.push(tampung2)
+  }
+  return hasil
+}
+
+// // TEST CASES
+console.log(perkalianUnik([2, 4, 6])); // [24, 12, 8]

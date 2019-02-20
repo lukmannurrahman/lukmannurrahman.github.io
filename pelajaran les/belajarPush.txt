@@ -1,0 +1,3 @@
+var animals = ['horse', 'cat', 'dog', 'bird']
+animals.push ('goat');
+console.log(animals.join())

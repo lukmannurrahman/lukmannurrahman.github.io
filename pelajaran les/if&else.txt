@@ -1,0 +1,28 @@
+var umur = 22
+var uang = 10000
+if (umur >17){
+  console.log ("boleh masuk bar");
+  if (umur >21){
+    console.log ("boleh pesan bir")
+    if (uang >70000){
+     console.log ("boleh beli bir") 
+    }
+    else {
+      console.log ("pulang")
+    }
+  }
+  if (umur <21){
+   console.log ("boleh pesan jus jeruk")
+   if (uang >30000){
+    console.log ("boleh beli jus jeruk")
+   }
+   else {
+     console.log ("pulang")
+   }
+  
+  }
+  
+}
+else{
+  console.log ("tidak boleh masuk")
+}

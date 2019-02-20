@@ -1,0 +1,13 @@
+ = 'dimitri:dimitri@mail.com:male,icha:icha@mail.com:female,windi:windi@mail.com:female';
+
+var splitSatu = text.split(',');
+var arr = []
+var arrSplit = []
+
+for(var i = 0; i < splitSatu.length; i++){
+  arr.push([splitSatu[i]])
+  arrSplit.push(arr[i][0].split(':'))
+
+}
+
+console.log(arrSplit);

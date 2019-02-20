@@ -1,0 +1,34 @@
+
+function jumlahKubus(sisi){
+
+  var total;
+  total = sisi * sisi * sisi;
+  return total
+}
+
+// console.log(jumlahLuasPersegiPanjang(7, 3))
+
+function jumlahVolumeBalok (panjang, lebar, tinggi){
+var panjang
+var lebar
+var tinggi
+
+total = panjang * lebar * tinggi;
+
+return total
+
+}
+
+function jumlahSemuanya(sisi, panjang, lebar , tinggi){
+  var total;
+  total = jumlahKubus(sisi)+jumlahVolumeBalok(panjang,lebar,tinggi);
+  return total;
+}
+// console.log(jumlahVolumeBalok(10, 8, 4))
+
+var sisiKubus=3;
+var panjangBalok= 2;
+var lebarBalok= 3;
+var tinggiBalok= 4;
+
+console.log("Berarti total jumlahnya adalah, "+ jumlahSemuanya(3,2,3,4))

@@ -1,0 +1,11 @@
+var jumlah =0
+var deret =5
+
+while (deret > 0){
+  jumlah = jumlah + deret
+  console.log(jumlah)
+  deret--
+}
+
+
+console.log('jumlah terakhir' + jumlah)

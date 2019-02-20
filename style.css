@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    line-height: 0;
+}
+
+body {
+    background-color: lightgray;
+    background-image: url(images/qwer.jpg);
+    text-align: center;
+}
+
+.container {
+    width: 600px;
+    margin: 10px auto;
+    border: 5px solid gray;
+    overflow: auto; /* untuk menyusuaikan border container*/
+}
+
+
+.kecil {
+    width: 200px; /*karna gambar besar adalah 600px dan kita ingin membuat 3 gambar kecil maka ukurannya adalah 200px*/ 
+    float: left;
+    border: 2px solid gray;
+    box-sizing: border-box; /* untuk menyusuaikan ukuran border gambar kecil*/ 
+
+}
+
+.kecil:hover {
+    opacity: 0.5; /* untuk membuat gambar menjadi transparan*/
+    cursor: pointer; /*untuk merubah cursor menjadi pointer ketika posisi cursor berada di gambar kecil*/
+}
+
+@keyframes fadeIn {       
+    to {
+        opacity: 1;
+    }
+}
+
+.animasi {   /* memberikan animasi*/
+    opacity: 0;
+    animation: fadeIn 0.5s forwards; 
+}
+
+.transparan {   /* membuat layar transparan ketika di klik*/
+    opacity: 0.5;
+}
+
+.btnHapus {
+    width: 60px;
+    height: 30px;
+    margin: 10px;
+    border: 5px solid white;
+}
